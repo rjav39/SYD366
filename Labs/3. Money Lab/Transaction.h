@@ -27,6 +27,10 @@ public:
 	double getTransacAmount();
 
 	Transaction getFinancialQuery(int startDate, int endDate);
+
+	void createIncomeTransaction(int transacDate, int transacID, int payment, int transacDesc, int transacAmount);
+
+	void createExpenseTransaction(int transacDate, int transacID, int payment, int transacDesc, int transacAmount);
 };
 
 #endif

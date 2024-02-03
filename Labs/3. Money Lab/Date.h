@@ -12,6 +12,8 @@ public:
 	void createDate(Date& date);
 
 	Date getDate();
+
+	void createDate();
 };
 
 #endif
