@@ -11,7 +11,7 @@ private:
 
 public:
 	PaymentType getPaymentTypes();
-
+	PaymentType(std::string& paymentDesc);
 	void createPaymentType(int &paymentTypeID, std::string &paymentTypeDesc);
 };
 
