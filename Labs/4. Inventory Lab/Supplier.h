@@ -1,12 +1,13 @@
 #ifndef SUPPLIER_H
 #define SUPPLIER_H
+#include<iostream>
 
 namespace Holiday_Store {
 	class Supplier {
 
 	private:
 		int supplierID;
-		int supplierDesc;
+		std::string supplierDesc;
 
 	public:
 		void getSuppliers();

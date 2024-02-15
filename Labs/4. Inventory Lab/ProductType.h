@@ -1,12 +1,12 @@
 #ifndef PRODUCTTYPE_H
 #define PRODUCTTYPE_H
-
+#include <iostream>
 namespace Holiday_Store {
 	class ProductType {
 
 	private:
 		int prodTypeID;
-		int prodTypeDesc;
+		std::string prodTypeDesc;
 
 	public:
 		void getProductTypes();

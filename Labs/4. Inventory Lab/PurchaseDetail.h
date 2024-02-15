@@ -8,7 +8,7 @@ namespace Holiday_Store {
 		int purchaseDetailID;
 		Location purchaseDetailLocation;
 		int purchaseDetailQty;
-		int purchaseDetailPrice;
+		double purchaseDetailPrice;
 
 	public:
 		void selectPurchaseDetailLocation(int locationID);

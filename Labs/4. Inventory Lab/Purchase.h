@@ -1,5 +1,6 @@
 #ifndef PURCHASE_H
 #define PURCHASE_H
+#include <iostream>
 
 namespace Holiday_Store {
 	class Purchase {
@@ -9,10 +10,10 @@ namespace Holiday_Store {
 		int purchaseDate;
 		Holiday_Store::Product purchaseProduct;
 		Holiday_Store::PurchaseDetail purchaseDetailSet;
-		int purchaseReceipt;
-		int purchaseSupplier;
-		int purchaseTotal;
-		int purchaseTax;
+		std::string purchaseReceipt;
+		std::string purchaseSupplier;
+		double purchaseTotal;
+		double purchaseTax;
 
 	public:
 		void getPurchase();
